@@ -31,7 +31,7 @@ public class Vaga {
 
     // informar o relacionamento com empresa 1:n
     // empresaId FK
-    @Column(name = "empresa_id")
+    @Column(name = "empresa_id", nullable = false)
     private UUID empresaId;
 
     @CreationTimestamp
