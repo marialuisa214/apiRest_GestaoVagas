@@ -43,6 +43,12 @@
 			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
 
+		<!-- Spring Security implementa uma camada que bloqueia todas as rotas por padrão. Essa camada garante que apenas usuários autenticados e autorizados acessem os recursos da sua aplicação. As rotas de cadastro criadas também serão bloqueadas por essa camada, a menos que você configure o acesso a elas. -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
