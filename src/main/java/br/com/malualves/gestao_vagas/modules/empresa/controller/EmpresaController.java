@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.malualves.gestao_vagas.modules.candidato.Candidato;
 import br.com.malualves.gestao_vagas.modules.empresa.entidades.Empresa;
 import br.com.malualves.gestao_vagas.modules.empresa.useCase.CreateEmpresaUseCase;
 import jakarta.validation.Valid;

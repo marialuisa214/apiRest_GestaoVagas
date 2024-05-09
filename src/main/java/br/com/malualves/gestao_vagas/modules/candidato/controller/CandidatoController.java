@@ -2,14 +2,11 @@ package br.com.malualves.gestao_vagas.modules.candidato.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.malualves.gestao_vagas.exceptions.UserFoundException;
 import br.com.malualves.gestao_vagas.modules.candidato.Candidato;
-import br.com.malualves.gestao_vagas.modules.candidato.CandidatoRepositorio;
 import br.com.malualves.gestao_vagas.modules.candidato.useCases.CreateCandidatoUseCase;
 import jakarta.validation.Valid;
 
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.apache.catalina.connector.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
