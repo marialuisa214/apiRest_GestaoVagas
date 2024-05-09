@@ -24,7 +24,6 @@ public class Candidato {
     @Pattern(regexp = "\\S+", message = "O campo username não deve conter espaço")
     private String username;
 
-    @Length(min = 8, max = 20)
     private String senha;
 
     @Email(message = "O campo e-mail deve conter um campo valido")
