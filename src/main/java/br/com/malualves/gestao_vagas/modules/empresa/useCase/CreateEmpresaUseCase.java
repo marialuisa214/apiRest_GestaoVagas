@@ -21,7 +21,9 @@ public class CreateEmpresaUseCase {
                 .ifPresent((empr) -> {
                     throw new EmpresaFoundException();
                 });
+        // criptografar senha salva no banco
         var password = passwordEncoder.encode(novaEmpresa.getPassword());
+
         novaEmpresa.setPassword(password);
 
         return this.empresaRepositorio.save(novaEmpresa);

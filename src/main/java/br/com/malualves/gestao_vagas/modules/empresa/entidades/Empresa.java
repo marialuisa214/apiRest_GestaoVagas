@@ -29,7 +29,6 @@ public class Empresa {
     @Length(min = 5, max = 20)
     private String username;
 
-    @Length(min = 5, max = 20)
     private String password;
 
     @Email
